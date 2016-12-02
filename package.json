@@ -1,0 +1,49 @@
+{
+  "name": "yanfch-blog-koa2-api",
+  "version": "1.0.0",
+  "description": "yanfch-blog-koa2-api",
+  "main": "index.js",
+  "scripts": {
+    "build": "",
+    "start": "NODE_ENV=development ./node_modules/.bin/nodemon index.js",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yanfch/yanfch-blog-koa2-api.git"
+  },
+  "author": "yanfch",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^7.0.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-stage-1": "^6.16.0",
+    "eslint": "^3.8.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.4.1",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "babel-eslint": "^7.1.0",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-register": "^6.18.0",
+    "bluebird": "^3.4.6",
+    "bunyan": "^1.8.4",
+    "import-directory": "^1.0.6",
+    "koa": "^2.0.0",
+    "koa-bodyparser": "^3.2.0",
+    "koa-compose": "^3.0.0",
+    "koa-convert": "^1.2.0",
+    "koa-cors": "0.0.16",
+    "koa-helmet": "^2.0.0",
+    "koa-logger": "^2.0.0",
+    "koa-router": "^7.0.1",
+    "lodash": "^4.16.4",
+    "moment": "^2.15.2",
+    "mongoose": "^4.7.1",
+    "require-directory": "^2.1.1"
+  }
+}
